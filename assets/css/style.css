@@ -15,14 +15,22 @@ li{
 	background: #FD6E0A;
 	border: none;
 	padding: 18px 30px;
-	font-weight: 500;
+	font-weight: 600;
 	border-radius: 5px;
 	display: inline-block;
+}
+.bg-transparent{
+	color: #FD6E0A;
+	background: transparent;
+	border: 1px solid #FD6E0A;
+	font-weight: 600;
 }
 
 /*Header Styles*/
 header{
-	background: #FFF8F3;
+	background: url("../images/header_bg.png")right bottom no-repeat , url("../images/developer.png")left no-repeat;
+	background-color: #FFF8F3;
+	background-size: 55%, 70px, auto;
 }
 nav{
 	display: flex;
@@ -50,6 +58,7 @@ nav ul li a{
 	color: #474747;
 	font-size: 20px;
 	font-weight: 400;
+	text-transform: capitalize;
 }
 
 /*Banner*/
@@ -67,16 +76,47 @@ nav ul li a{
 	color: #181818;		
 	font-size: 75px;		
 	font-weight: 700;		
-	margin: 15px 0;
+	margin: 10px 0;
 }
 .banner-desc p{
 	font-size: 18px;
 	color: #757575;
-	margin: 20px 0;
+	margin: 10px 0 20px 0;
+}
+.banner .btn-primary{
+	margin-right: 20px;
 }
 .banner img{
 	text-align: right;
 }
+
+/*About Section Style*/
+.about{		
+	max-width: 1140px;
+	margin: 110px auto;
+}
+.container{
+	padding: 110px 150px;
+	text-align: center;
+	background: #FFF8F3;
+}
+.about .container h3{
+	font-size: 35px;
+	margin-bottom: 25px;
+}
+.about .container p {
+	padding: 15px 30px;
+	line-height: 30px;
+}
+.sub-abouts{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+
+
 
 
 /* yellow-color: #FD6E0A; */
