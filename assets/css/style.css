@@ -3,7 +3,11 @@
 	padding: 0;
 	font-family: 'Open Sans',sans-serif;
 }
-/*common css*/
+/*
+===================
+common css
+===================
+*/
 a{
 	text-decoration: none;
 }
@@ -20,7 +24,7 @@ li{
 	color: #fff;
 	background: #FD6E0A;
 	border: none;
-	padding: 18px 30px;
+	padding: 14px 30px;
 	font-weight: 600;
 	border-radius: 5px;
 	display: inline-block;
@@ -32,7 +36,11 @@ li{
 	font-weight: 600;
 }
 
-/*Header Styles*/
+/*
+===================
+Header Styles
+===================
+*/
 header{
 	background: url("../images/header_bg.png")right bottom no-repeat , url("../images/developer.png")left no-repeat;
 	background-color: #FFF8F3;
@@ -67,7 +75,11 @@ nav ul li a{
 	text-transform: capitalize;
 }
 
-/*Banner*/
+/*
+===============
+Banner
+===============
+*/
 .banner{
 	display: flex;
 	align-items: center;
@@ -96,7 +108,11 @@ nav ul li a{
 	text-align: right;
 }
 
-/*About Section Style*/
+/*
+====================
+About Section Style
+====================
+*/
 .about{		
 	max-width: 1140px;
 	margin: 110px auto;
@@ -121,7 +137,11 @@ nav ul li a{
 	justify-content: space-around;
 }
 
-/*What We Do */
+/*
+===================
+What We Do
+===================
+ */
 
 .what-do{
 	text-align: center;
@@ -150,7 +170,11 @@ nav ul li a{
 }
 
 
-/*summary resume */
+/*
+========================
+summary resume 
+========================
+*/
 .summary-resume{
 	margin: 0 110px;
 	padding: 50px 20px;
@@ -160,6 +184,9 @@ nav ul li a{
 	justify-content: space-between;
 	gap: 50px;
 	margin-top: 40px;
+}
+.resume-details p{
+	color: #757575;
 }
 .resume-details .my-experience,
 .resume-details .my-education{
@@ -178,11 +205,12 @@ nav ul li a{
 }
 .resume-date{
 	font-size: 18px;
-	color: #474747;
-	font-weight: 400;
+	color: #757575;
+	font-weight: 500;
 	margin-bottom: 10px;	
 }
 hr{
+	color: #757575;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -190,14 +218,55 @@ hr{
 	font-size: 16px;
 }
 
+/*
+==================
+footer
+==================
+*/
+footer.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 80px 110px;
+	background: #FFF8F3;
+}
+.footer-social,
+.footer-form{
+	flex-direction: column;
+	width: 50%;
+}
+.footer-form{
+	margin-left: 60px;
+}
+.ft-title{
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+.social-icons{
+	margin-top: 30px;
+	display: flex;
+}
+.social-icons li{
+	margin-right: 15px;
+}
+.social-icons li a{
+	color: #FD6E0A;
+	font-size: 24px;
+}
+/*form*/
+.footer-form form input,
+.footer-form form textarea{
+	display: block;
+	width: 70%;
+	padding: 12px 8px;
+	margin-bottom: 15px;
+	border: none;
+}
+.footer-form form input:focus,
+.footer-form form textarea:focus{
+	outline: none;
+}
+.footer-form .btn-primary{
+	cursor: pointer;
+}
 
-
-
-
-
-
-/* yellow-color: #FD6E0A; */
-/* paragtraph-color: #757575; */
-/* h1-color: #181818; */
-/* sub heading-color: #474747; */
-/* bg-color: #FFF8F3; */
